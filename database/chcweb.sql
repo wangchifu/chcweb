@@ -1872,7 +1872,14 @@ ALTER TABLE `photo_types`
 --
 ALTER TABLE `posts`
   MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT;
+  
+--
+-- 使用資料表自動遞增(AUTO_INCREMENT) `posts`
+--
+ALTER TABLE `post_types`
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT;
 
+ALTER TABLE `post_types` AUTO_INCREMENT = 3;
 --
 -- 使用資料表自動遞增(AUTO_INCREMENT) `reports`
 --

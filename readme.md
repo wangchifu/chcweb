@@ -13,4 +13,5 @@ php artisan key:generate<br>
 php artisan storage:link<br>
 sudo chmod 777 -R storage bootstrap/cache<br>
 ### 帳密
-帳號 admin 密碼 demo1234
+帳號 admin 密碼 demo1234<br>
+本系統版權所有
